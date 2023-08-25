@@ -11,8 +11,11 @@
 # def first_odds(start, end):
 #     for i in range(start,end + 1):
 #         if i % 2 != 0:
-#            return
+#           print(i)
 # first_odds(1,100)
+
+
+
 ######## End of Question 2 Answer ^^^^^^^^##############
 #Question 3
 # my_list = [1,2,3,4,5]
@@ -27,12 +30,14 @@
 #Question 4
 
 # def is_a_leap_year(a_year):
-#     if a_year % 4 == 0 or a_year % 400 == 0 and a_year % 100 !=0:
+#     if a_year % 400 == 0 or a_year % 4 == 0 and a_year % 100 != 0: 
 #         print(True)
-#     else:
-#         print(False)
 
-# is_a_leap_year(2016)
+#     else: 
+#         print(False)
+     
+# is_a_leap_year(2018)
+
 
 # ######## End of Question 4 Answer ^^^^^^^^##############
 #Question 5           
